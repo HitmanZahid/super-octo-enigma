@@ -44,6 +44,6 @@ if __name__ == "__main__":
     os.system('git add .')
     os.system('git commit -m "updated website"')
     os.system('git push origin master')
-     #print(stonks)
+    # print(stonks)
     # app.run(host='0.0.0.0', port='5000')  # run the app on LAN
-     #app.run()  # run the app on your machine
+    app.run()  # run the app on your machine
