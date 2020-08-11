@@ -36,7 +36,7 @@ if __name__ == "__main__":
     os.system('git fetch')
     stonk_search = mainObj()
     stonks = stonk_search.main_func()
-    stonks = stonks[:15]
+    stonks = stonks[:20]
     freezer.freeze()
     copyfile('build/index.html', 'index.html')
     shutil.rmtree('build/')
